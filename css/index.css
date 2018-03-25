@@ -1,0 +1,1022 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.container{
+	width: 600px;
+	height: 500px;
+	margin: 100px auto;
+}
+
+/*主身体部分*/
+.main-body{
+	width: 251px;
+	height: 405px;
+	margin: 40px auto 0;
+	background: #F9D946;
+	border: 4px solid #000;
+	border-radius: 125px / 118px;
+	position: relative;
+	box-shadow: 0 0 20px 2px #ccc inset;
+}
+
+/*头发*/
+.hair-left-1{
+    width: 130px;
+    height: 100px;
+    border-radius: 50%;
+    border-top: 8px solid #000;
+    position: absolute;
+    left: 2px;
+    top: -28px;
+    z-index: -1;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+
+    -webkit-transform: rotate(27deg); 
+    -moz-transform: rotate(27deg); 
+    -ms-transform: rotate(27deg); 
+    -o-transform: rotate(27deg); 
+    transform: rotate(27deg);
+
+    -webkit-animation: hair-left-1 2s ease-in-out infinite;
+    -moz-animation: hair-left-1 2s ease-in-out infinite;
+    -ms-animation: hair-left-1 2s ease-in-out infinite;
+    -o-animation: hair-left-1 2s ease-in-out infinite;
+    animation: hair-left-1 2s ease-in-out infinite;
+}
+@-webkit-keyframes hair-left-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -webkit-transform: rotate(41deg);
+    }
+}
+@-moz-keyframes hair-left-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -moz-transform: rotate(41deg);
+    }
+}
+@-ms-keyframes hair-left-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -ms-transform: rotate(41deg);
+    }
+}
+@-o-keyframes hair-left-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -o-transform: rotate(41deg);
+    }
+}
+@keyframes hair-left-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        transform: rotate(41deg);
+    }
+}
+
+.hair-left-2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-top: 6px solid #000;
+    position: absolute;
+    left: 33px;
+    top: -20px;
+    z-index: -1;
+
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
+
+.hair-right-1{
+    width: 130px;
+    height: 100px;
+    border-radius: 50%;
+    border-top: 8px solid #000;
+    position: absolute;
+    left: 102px;
+    top: -33px;
+    z-index: -1;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    
+    -webkit-animation: hair-right-1 2s ease-in-out infinite;
+    -moz-animation: hair-right-1 2s ease-in-out infinite;
+    -ms-animation: hair-right-1 2s ease-in-out infinite;
+    -o-animation: hair-right-1 2s ease-in-out infinite;
+    animation: hair-right-1 2s ease-in-out infinite;
+}
+@-webkit-keyframes hair-right-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -webkit-transform: rotate(-45deg);
+    }
+}
+@-moz-keyframes hair-right-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -moz-transform: rotate(-45deg);
+    }
+}
+@-ms-keyframes hair-right-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -ms-transform: rotate(-45deg);
+    }
+}
+@-o-keyframes hair-right-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -o-transform: rotate(-45deg);
+    }
+}
+@keyframes hair-right-1 {
+    0%,25%,31%,100% {
+    }
+    30% {
+        transform: rotate(-45deg);
+    }
+}
+
+.hair-right-2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-top: 6px solid #000;
+    position: absolute;
+    left: 117px;
+    top: -22px;
+    z-index: -1;
+
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+
+    -webkit-transform: rotate(-14deg);
+    -moz-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
+    -o-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+}
+/*眼睛*/
+.eyes{
+	width: 192px;
+	height: 103px;
+	overflow: hidden;
+	position: absolute;
+	top: 60px;
+	left: 28px;
+	overflow: hidden;
+	z-index: 1;
+}
+.eyes > div{
+    width: 92px;
+    height: 92px;
+    background: #958C8F;
+    border: 2px solid #646361;
+    border-radius: 50%;
+}
+.eyes > div::before{
+    content: "";
+    width: 66px;
+    height: 66px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.eyes > div::after{
+    content: "";
+    width: 66px;
+    height: 30px;
+    background: #F9D946;
+    border: 1px solid #000;
+    border-radius: 0 0 66px 66px;
+    position: absolute;
+    top: 49px;
+    left: 13px;
+    box-shadow: -1px -4px 20px 2px #A29797 inset;  
+}
+/*左边眼睛*/
+.eye-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*右边眼睛*/
+.eye-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/*眼睛内部*/
+.eyes .eye-inner-black{
+	width: 40px;
+	height: 40px;
+	background: #000;
+	border-radius: 50%;
+}
+/*黑瞳孔*/
+.eyes .eye-inner-black.left{
+	position: absolute;
+	top: 23px;
+	right: 17px;
+	-webkit-animation: black-eye-left 5s ease-in infinite;
+    -moz-animation: black-eye-left 5s ease-in infinite;
+    -ms-animation: black-eye-left 5s ease-in infinite;
+    -o-animation: black-eye-left 5s ease-in infinite;
+    animation: black-eye-left 5s ease-in infinite;
+}
+@-webkit-keyframes black-eye-left {
+    0%,20%,50%,70%,100% {
+        -webkit-transform: translateX(0px);
+    }
+    80%,90% {
+        -webkit-transform: translateX(-15px) translateY(5px);
+    }
+}
+@-moz-keyframes black-eye-left {
+    0%,20%,50%,70%,100% {
+        -moz-transform: translateX(0px);
+    }
+    80%,90% {
+        -moz-transform: translateX(-15px) translateY(5px);
+    }
+}
+
+@-ms-keyframes black-eye-left {
+    0%,20%,50%,70%,100% {
+        -ms-transform: translateX(0px);
+    }
+    80%,90% {
+        -ms-transform: translateX(-15px) translateY(5px);
+    }
+}
+
+@-o-keyframes black-eye-left {
+    0%,20%,50%,70%,100% {
+        -o-transform: translateX(0px);
+    }
+    80%,90% {
+        -o-transform: translateX(-15px) translateY(5px);
+    }
+}
+
+@keyframes black-eye-left {
+    0%,20%,50%,70%,100% {
+        transform: translateX(0px);
+    }
+    80%,90% {
+        transform: translateX(-15px) translateY(5px);
+    }
+}
+
+.eyes .eye-inner-black.right{
+	position: absolute;
+	top: 23px;
+	left: 17px;
+	-webkit-animation: black-eye-right 5s ease-in infinite;
+    -moz-animation: black-eye-right 5s ease-in infinite;
+    -ms-animation: black-eye-right 5s ease-in infinite;
+    -o-animation: black-eye-right 5s ease-in infinite;
+    animation: black-eye-right 5s ease-in infinite;
+}
+@-webkit-keyframes black-eye-right {
+    0%,20%,50%,70%,100% {
+        -webkit-transform: translateX(0px);
+    }
+    80%,90% {
+        -webkit-transform: translateX(15px) translateY(5px);
+    }
+}
+@-moz-keyframes black-eye-right {
+    0%,20%,50%,70%,100% {
+        -moz-transform: translateX(0px);
+    }
+    80%,90% {
+        -moz-transform: translateX(15px) translateY(5px);
+    }
+}
+@-ms-keyframes black-eye-right {
+    0%,20%,50%,70%,100% {
+        -ms-transform: translateX(0px);
+    }
+    80%,90% {
+        -ms-transform: translateX(15px) translateY(5px);
+    }
+}
+@-o-keyframes black-eye-right {
+    0%,20%,50%,70%,100% {
+        -o-transform: translateX(0px);
+    }
+    80%,90% {
+        -o-transform: translateX(15px) translateY(5px);
+    }
+}
+@keyframes black-eye-right {
+    0%,20%,50%,70%,100% {
+        transform: translateX(0px);
+    }
+    80%,90% {
+        transform: translateX(15px) translateY(5px);
+    }
+}
+/*白色瞳孔*/
+.eyes .eye-inner-white{
+	width: 19px;
+	height: 19px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 7px;
+	right: 2px;
+	-webkit-animation: white-eye-right 5s ease-in infinite;
+    -moz-animation: white-eye-right 5s ease-in infinite;
+    -ms-animation: white-eye-right 5s ease-in infinite;
+    -o-animation: white-eye-right 5s ease-in infinite;
+    animation: white-eye-right 5s ease-in infinite;
+}
+@-webkit-keyframes white-eye-right  {
+    0%,20%,50%,70%,100% {
+        -webkit-transform: translateX(0px);
+    }
+    80%,90% {
+        -webkit-transform: translateX(-12px) translateY(0px);
+    }
+}
+@-moz-keyframes white-eye-right  {
+    0%,20%,50%,70%,100% {
+        -moz-transform: translateX(0px);
+    }
+    80%,90% {
+        -moz-transform: translateX(-12px) translateY(0px);
+    }
+}
+@-ms-keyframes white-eye-right  {
+    0%,20%,50%,70%,100% {
+        -ms-transform: translateX(0px);
+    }
+    80%,90% {
+        -ms-transform: translateX(-12px) translateY(0px);
+    }
+}
+@-o-keyframes white-eye-right  {
+    0%,20%,50%,70%,100% {
+        -o-transform: translateX(0px);
+    }
+    80%,90% {
+        -o-transform: translateX(-12px) translateY(0px);
+    }
+}
+@keyframes white-eye-right  {
+    0%,20%,50%,70%,100% {
+        transform: translateX(0px);
+    }
+    80%,90% {
+        transform: translateX(-12px) translateY(0px);
+    }
+}
+
+/*眼镜框腿*/
+.glasses{
+	width: 33px;
+    height: 15px;
+    background: #000;
+}
+/*左边眼镜框腿*/
+.glasses.left{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    transform-origin: top left;
+    -webkit-transform: skew(1deg,13deg);
+    -moz-transform: skew(1deg,13deg);
+    -ms-transform: skew(1deg,13deg);
+    -o-transform: skew(1deg,13deg);
+    transform: skew(1deg,13deg);
+}
+/*右边眼镜框腿*/
+.glasses.right{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    transform-origin: top right;
+    -webkit-transform: skew(-1deg,-13deg);
+    -moz-transform: skew(-1deg,-13deg);
+    -ms-transform: skew(-1deg,-13deg);
+    -o-transform: skew(-1deg,-13deg);
+    transform: skew(-1deg,-13deg);
+}
+/*嘴巴*/
+.mouth{
+    width: 92px;
+    height: 35px;
+    background: #fff;
+    overflow: hidden;
+    border: 4px solid #000;
+    border-bottom-left-radius: 61px 43px;
+    border-bottom-right-radius: 45px 45px;
+    position: absolute;
+    top: 183px;
+    left: 79px;
+    -webkit-transform: rotate(-12deg) scale(0.6);
+    -moz-transform: rotate(-12deg) scale(0.6);
+    -ms-transform: rotate(-12deg) scale(0.6);
+    -o-transform: rotate(-12deg) scale(0.6);
+    transform: rotate(-12deg) scale(0.6);
+
+    -webkit-animation: mouth 3s ease-in-out infinite;
+    -moz-animation: mouth 3s ease-in-out infinite;
+    -ms-animation: mouth 3s ease-in-out infinite;
+    -o-animation: mouth 3s ease-in-out infinite;
+    animation: mouth 3s ease-in-out infinite;
+}
+@-webkit-keyframes mouth {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -webkit-transform: rotate(-26deg) scale(0.8);
+    }
+}
+@-moz-keyframes mouth {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -moz-transform: rotate(-26deg) scale(0.8);
+    }
+}
+@-ms-keyframes mouth {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -ms-transform: rotate(-26deg) scale(0.8);
+    }
+}
+@-o-keyframes mouth {
+    0%,25%,31%,100% {
+    }
+    30% {
+        -o-transform: rotate(-26deg) scale(0.8);
+    }
+}
+@keyframes mouth {
+    0%,25%,31%,100% {
+    }
+    30% {
+        transform: rotate(-26deg) scale(0.8);
+    }
+}
+
+/*牙齿*/
+.mouth-tooth-1{
+    width: 83px;
+    height: 0;
+    border: 2px solid #000;
+    position: absolute;
+    top: 14px;
+}
+.mouth-tooth-2{
+	width: 31px;
+    height: 32px;
+    border: 3px solid #000;
+    border-top: 0;
+    border-bottom: 0;
+    position: absolute;
+    left: 31px;
+}
+/*裤子*/
+.pants{
+	width: 100%;
+	height: 219px;
+	position: absolute;
+	bottom: 0;
+}
+/*背带*/
+.pants-belt{
+	width: 69px;
+	height: 22px;
+	background: #2074a0;
+	border: 4px solid #000;
+	z-index: 4;
+}
+/*左边背带*/
+.pants-belt.left{
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    border-left: 0;
+    transform: skew(0deg,48deg);
+    border-bottom-right-radius: 35px 20px;
+    border-top-right-radius: 2px 10px;
+}
+
+
+/*左边背带上面的扣子*/
+.pants-belt.left::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+/*右边背带*/
+.pants-belt.right{
+    position: absolute;
+    top: 39px;
+    right: 0px;
+    border-right: 0;
+    transform: skew(0deg,-48deg);
+    border-bottom-left-radius: 35px 20px;
+    border-top-left-radius: 2px 10px;
+}
+/*右边背带上面的扣子*/
+.pants-belt.right::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+
+/*裤子上半边部分*/
+.pants-top{
+	width: 160px;
+	height: 54px;
+	background: #2074a0;
+	border: 4px solid #000;
+	border-bottom-color: #2074a0;
+	position: absolute;
+	left: 42px;
+	bottom: 99px;
+	z-index: 3;
+}
+
+
+/*裤子下半边部分*/
+.pants-bottom{
+    width: 100%;
+    height: 100px;
+    background: #2074a0;
+    border: 4px solid #000;
+    border-bottom-left-radius: 125px 118px;
+    border-bottom-right-radius: 125px 118px;
+    position: absolute;
+    bottom: -5px;
+    left: -4px;
+}
+
+/*裤子口袋*/
+.pants-pocket{
+    width: 65px;
+    height: 46px;
+    border: 4px solid #000;
+    border-bottom-left-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+    position: absolute;
+    bottom: 64px;
+    left: 88px;
+    z-index: 5;
+}
+
+/*裤子上的三条线*/
+.pants-line-left{
+    width: 36px;
+    height: 30px;
+    background: #2074a0;
+    border: 4px solid #000;
+    border-top: 0;
+    border-left: 0;
+    border-bottom-right-radius: 40px 35px;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+
+.pants-line-right{
+	width: 36px;
+    height: 30px;
+    background: #2074a0;
+    border: 4px solid #000;
+    border-top: 0;
+    border-right: 0;
+    border-bottom-left-radius: 40px 35px;
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+.pants-line-bottom{
+	width: 4px;
+	height: 42px;
+	background: #000;
+	border: 0;
+	position: absolute;
+	bottom: 0;
+	left: 123px;
+}
+
+/*左边胳膊*/
+.arm-left{
+    width: 110px;
+    height: 85px;
+    background: #F9D946;
+    border: 4px solid #000;
+    transform-origin: top right;
+    transform: rotate(-38deg);
+    border-top-left-radius: 50px 37px;
+    position: absolute;
+    top: 185px;
+    left: -104px;
+    z-index: -1;
+    box-shadow: 0 0 20px 3px #ccc inset;
+}
+.arm-left::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 13px solid #fff;
+    border-right: 0;
+    border-bottom-color: transparent;
+    transform-origin: top left;
+    transform: rotate(14deg);
+    position: absolute;
+    top: 43px;
+    left: 40px;
+}
+
+/*左边胳膊上的两条线*/
+.arm-left-line-1{
+    width: 29px;
+    height: 4px;
+    background: #000;
+    border: 0;
+    position: absolute;
+    top: 43px;
+    left: 33px;
+}
+.arm-left-line-2{
+    width: 4px;
+    height: 42px;
+    background: #000;
+    border: 0;
+    transform-origin: top left;
+    transform: rotate(15deg);
+    position: absolute;
+    top: 43px;
+    left: 36px;
+}
+/*右边手套*/
+.glove-left{
+    width: 30px;
+    height: 45px;
+    background: #000;
+    border-top-left-radius: 57px 23px;
+    border-top-right-radius: 8px 11px;
+    transform-origin: top left;
+    transform: rotate(-82deg);
+    position: absolute;
+    top: 108px;
+    left: -11px;
+}
+/*左边手指*/
+.hands-left{
+    width: 52px;
+    height: 0;
+    border-top: 10px solid #000;
+    border-bottom: 25px solid #000;
+    border-top-left-radius: 48px 30px;
+    border-top-right-radius: 10px 20px;
+    border-bottom-left-radius: 86px 50px;
+    position: absolute;
+    top: 101px;
+    left: -41px;
+    z-index: -2;
+    transform-origin: center center;
+    transform: skew(10deg);
+
+    -webkit-animation: hands-left 1s ease-in-out infinite;
+    -moz-animation: hands-left 1s ease-in-out infinite;
+    -ms-animation: hands-left 1s ease-in-out infinite;
+    -o-animation: hands-left 1s ease-in-out infinite;
+    animation: hands-left 1s ease-in-out infinite;
+}
+@-webkit-keyframes hands-left{ 
+	0%,25%,31%,100%{ 
+	} 
+	30%{ 
+		-webkit-transform: skew(-10deg); 
+	} 
+}
+@-moz-keyframes hands-left{ 
+    0%,25%,31%,100%{ 
+    } 
+    30%{ 
+        -moz-transform: skew(-10deg); 
+    } 
+}
+@-ms-keyframes hands-left{ 
+    0%,25%,31%,100%{ 
+    } 
+    30%{ 
+        -ms-transform: skew(-10deg); 
+    } 
+}
+@-o-keyframes hands-left{ 
+    0%,25%,31%,100%{ 
+    } 
+    30%{ 
+        -o-transform: skew(-10deg); 
+    } 
+}
+@keyframes hands-left{ 
+    0%,25%,31%,100%{ 
+    } 
+    30%{ 
+        transform: skew(-10deg); 
+    } 
+}
+
+
+/*右边胳膊*/
+.arm-right{	
+    width: 127px;
+    height: 38px;
+    background: #F9D946;
+    border: 4px solid #000;
+    transform-origin: bottom left;
+    transform: rotate(-37deg);
+    position: absolute;
+    top: 198px;
+    right: -129px;
+    z-index: -1;
+    box-shadow: 0 0 20px 3px #ccc inset;
+    -webkit-animation: arm-right 1.8s ease-in-out infinite;
+    -moz-animation: arm-right 1.8s ease-in-out infinite;
+    -ms-animation: arm-right 1.8s ease-in-out infinite;
+    -o-animation: arm-right 1.8s ease-in-out infinite;
+    animation: arm-right 1.8s ease-in-out infinite;
+}
+@-webkit-keyframes arm-right{ 
+	0%,50%,100%{ 
+	} 
+	30%{ 
+		-webkit-transform: rotate(-10deg); 
+	} 
+}
+@-moz-keyframes arm-right{ 
+    0%,50%,100%{ 
+    } 
+    30%{ 
+        -moz-transform: rotate(-10deg); 
+    } 
+}
+@-ms-keyframes arm-right{ 
+    0%,50%,100%{ 
+    } 
+    30%{ 
+        -ms-transform: rotate(-10deg); 
+    } 
+}
+@-o-keyframes arm-right{ 
+    0%,50%,100%{ 
+    } 
+    30%{ 
+        -o-transform: rotate(-10deg); 
+    } 
+}
+@keyframes arm-right{ 
+    0%,50%,100%{ 
+    } 
+    30%{ 
+        transform: rotate(-10deg); 
+    } 
+}
+
+
+/*右边手套*/
+.glove-right{
+    width: 30px;
+    height: 60px;
+    background: #000;
+    border-top-left-radius: 21px 8px;
+    border-bottom-left-radius: 21px 8px;
+    position: absolute;
+    top: -11px;
+    right: -5px;
+}
+/*右边手指*/
+.hands-right-1{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 53px;
+    transform-origin: top left;
+    transform: rotate(-9deg);
+    position: absolute;
+    top: -29px;
+    right: -39px;
+}
+
+.hands-right-2{
+    width: 67px;
+    height: 45px;
+    background: #000;
+    border-top-right-radius: 24px 20px;
+    border-bottom-right-radius: 20px 24px;
+    transform-origin: bottom left;
+    transform: rotate(3deg);
+    position: absolute;
+    top: -8px;
+    right: -70px;
+}
+
+
+.hands-right-3{
+    width: 46px;
+    height: 36px;
+    background: #000;
+    border-bottom-left-radius: 58px 36px;
+    border-top-right-radius: 20px 30px;
+    border-bottom-right-radius: 48px 55px;
+    transform-origin: top left;
+    transform: rotate(-25deg);
+    position: absolute;
+    top: 43px;
+    right: -39px;
+}
+
+
+/*脚*/
+.foot{
+	width: 36px;
+    height: 50px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 9px;
+    background: #000;
+}
+
+/*左边脚*/
+.foot.left{
+    z-index: -1;
+    position: absolute;
+    left: 85px;
+    bottom: -48px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 6px;
+}
+
+/*右边脚*/
+.foot.right{
+    z-index: -1;
+    position: absolute;
+    left: 125px;
+    bottom: -48px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 9px;
+}
+
+.foot::after {
+    content: '';
+    width: 60px;
+    height: 35px;
+    background: #000;
+}
+.foot.left::after{
+	border-radius: 20px 10px 21px 15px;
+    position: absolute;
+    left: -36px;
+    top: 15px;
+    transform-origin: center center;
+    
+    -webkit-transform: rotate(6deg);  
+    transform: rotate(6deg);
+}
+
+.foot.right::after{
+    border-radius: 10px 20px 15px 21px;
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    transform-origin: center center;
+    
+    -webkit-transform: rotate(-6deg); 
+    -moz-transform: rotate(-6deg); 
+    -ms-transform: rotate(-6deg); 
+    -o-transform: rotate(-6deg); 
+    transform: rotate(-6deg);
+
+    -webkit-animation: leftfoot .8s ease-in-out infinite; 
+    -moz-animation: leftfoot .8s ease-in-out infinite; 
+    -ms-animation: leftfoot .8s ease-in-out infinite; 
+    -o-animation: leftfoot .8s ease-in-out infinite; 
+    animation: leftfoot .8s ease-in-out infinite; 
+}
+@-webkit-keyframes leftfoot{ 
+	0%,50%,100%{ 
+		-webkit-transform: rotate(0deg); 
+	} 
+	30%{ 
+		-webkit-transform: rotate(6deg); 
+	} 
+}
+@-moz-keyframes leftfoot{ 
+    0%,50%,100%{ 
+        -moz-transform: rotate(0deg); 
+    } 
+    30%{ 
+        -moz-transform: rotate(6deg); 
+    } 
+}
+@-ms-keyframes leftfoot{ 
+    0%,50%,100%{ 
+        -ms-transform: rotate(0deg); 
+    } 
+    30%{ 
+        -ms-transform: rotate(6deg); 
+    } 
+}
+@-o-keyframes leftfoot{ 
+    0%,50%,100%{ 
+        -o-transform: rotate(0deg); 
+    } 
+    30%{ 
+        -o-transform: rotate(6deg); 
+    } 
+}
+@keyframes leftfoot{ 
+    0%,50%,100%{ 
+        transform: rotate(0deg); 
+    } 
+    30%{ 
+        transform: rotate(6deg); 
+    } 
+}
+
+/*脚底下的阴影*/
+.foot-shadow {
+    width: 292px;
+    height: 83px;
+    background: #ccc;
+    box-shadow: 0 0 20px 20px #ccc;
+    position: absolute;
+    top: 379px;
+    left: 71px;
+    z-index: -2;
+    transform-origin: bottom left;
+    transform: rotate(-14deg);
+    border-bottom-left-radius: 130px 20px;
+    border-top-left-radius: 47px 47px;
+    border-top-right-radius: 130px 50px;
+    border-bottom-right-radius: 100px 30px;
+}
+
+
+
